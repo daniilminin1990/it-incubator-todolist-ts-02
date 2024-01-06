@@ -28,6 +28,7 @@ export function Todolist(props: PropsType) {
   // if (el.filter === "completed") {
   //     tasksForTodolist = tasks[el.id].filter(t => t.isDone === true);
   // }
+  // ! Hometask
 
   let [title, setTitle] = useState("")
   let [error, setError] = useState<string | null>(null)
